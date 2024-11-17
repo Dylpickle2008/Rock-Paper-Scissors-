@@ -1,39 +1,36 @@
-/* styles.css */
-/* universal selector - Applies to whole document */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #082c6c;
-    color: #fff;
-}
-/* To center everything in game */
-.game{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+    background: navy; 
+    color: black; 
 }
 
-/* Title of the game */
-.title{
-    position: absolute;
-    top: 0;
-    font-size: 4rem;
-    z-index: 2;
+
+.game {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
     align-items: center; 
 }
 
-/* Score Board */
+.title{
+    padding-top: 20px; 
+    align-items: center;
+    text-align: center;  
+}
+
 .score{
     display: flex;
     width: 30vw;
     justify-content: space-evenly;
-    position: absolute;
     top: 70px;
     z-index: 1;
+    border: 5px dashed black; 
+    margin-top: 40px; 
 }
 
 /* Score  */
@@ -43,7 +40,6 @@
     margin-top: 1rem;
 }
 
-/* displaying three buttons in one line */
 .options{
     display: flex;
     width: 50vw;
@@ -51,7 +47,6 @@
     margin-top: 2rem;
 }
 
-/* Styling on all three buttons */
 .rock, .paper, .scissor{
     padding: 0.8rem;
     width: 100px;
@@ -61,14 +56,35 @@
     border-color: green;
     border: none;
     cursor: pointer;
+    color: white;
+    opacity: 0.6; 
+}
+
+.rock:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.paper:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.scissor:hover{
+    opacity: 1;
+    transition-duration: 1s;
 }
 
 .move{
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 50px;
 }
 
-/* Reload button style */
+.moves-left{
+    padding-bottom: 5px; 
+}
+
 .reload {
     display: none;
     margin-top: 2rem;
@@ -78,14 +94,19 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    opacity: 0.6;
+}
+
+.reload:hover{
+    opacity: 1;
+    transition-duration: 1s;
 }
 
 .result{
-    margin-top: 20px;
+    padding-top: 40px; 
     font-size: 1.2rem;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 612px)
 {  
     .title{
@@ -98,6 +119,7 @@
     }
     .options{
         width: 100vw;
+        padding-top: 10px; 
     }
 
 }
