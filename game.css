@@ -63,16 +63,19 @@
 .rock:hover{
     opacity: 1;
     transition-duration: 1s;
+    cursor: url("https://atlas-content-cdn.pixelsquid.com/stock-images/rock-stone-AvXzl49-600.jpg"), auto;
 }
 
 .paper:hover{
     opacity: 1;
     transition-duration: 1s;
+    cursor: url("https://www.citypng.com/public/uploads/preview/white-real-notebook-paper-hd-png-704081695123320tm706b00aj.png"), auto;
 }
 
 .scissor:hover{
     opacity: 1;
     transition-duration: 1s;
+    cursor: url("https://t4.ftcdn.net/jpg/02/55/26/63/360_F_255266320_plc5wjJmfpqqKLh0WnJyLmjc6jFE9vfo.jpg"), auto;
 }
 
 .move{
