@@ -33,7 +33,6 @@
     margin-top: 40px; 
 }
 
-/* Score  */
 .p-count,.c-count{
     text-align: center;
     font-size: 1.5rem;
@@ -55,7 +54,6 @@
     outline: none;
     border-color: green;
     border: none;
-    cursor: pointer;
     color: white;
     opacity: 0.6; 
 }
@@ -63,13 +61,13 @@
 .rock:hover{
     opacity: 1;
     transition-duration: 1s;
-    cursor: url("https://atlas-content-cdn.pixelsquid.com/stock-images/rock-stone-AvXzl49-600.jpg"), auto;
+    cursor: url("), auto;
 }
 
 .paper:hover{
     opacity: 1;
     transition-duration: 1s;
-    cursor: url("https://www.citypng.com/public/uploads/preview/white-real-notebook-paper-hd-png-704081695123320tm706b00aj.png"), auto;
+    cursor: url("https://as2.ftcdn.net/v2/jpg/01/19/84/69/1000_F_119846912_ZELP8eP2CaJRngsFXdRtljmiTWMlkQN9.jpg"), auto;
 }
 
 .scissor:hover{
@@ -98,6 +96,10 @@
     border-radius: 10px;
     cursor: pointer;
     opacity: 0.6;
+}
+
+.rock-image{
+    background: none; 
 }
 
 .reload:hover{
