@@ -61,19 +61,16 @@
 .rock:hover{
     opacity: 1;
     transition-duration: 1s;
-    cursor: url("), auto;
 }
 
 .paper:hover{
     opacity: 1;
-    transition-duration: 1s;
-    cursor: url("https://as2.ftcdn.net/v2/jpg/01/19/84/69/1000_F_119846912_ZELP8eP2CaJRngsFXdRtljmiTWMlkQN9.jpg"), auto;
+    transition-duration: 1s
 }
 
 .scissor:hover{
     opacity: 1;
     transition-duration: 1s;
-    cursor: url("https://t4.ftcdn.net/jpg/02/55/26/63/360_F_255266320_plc5wjJmfpqqKLh0WnJyLmjc6jFE9vfo.jpg"), auto;
 }
 
 .move{
@@ -98,8 +95,7 @@
     opacity: 0.6;
 }
 
-.rock-image{
-    background: none; 
+
 }
 
 .reload:hover{
