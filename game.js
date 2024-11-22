@@ -74,12 +74,12 @@ const game = () => {
             if (computer == 'scissors') {
                 result.textContent = 'Computer Won';
                 computerScore++;
-                document.body.style.cursor = "url(), pointer"
+                document.body.style.cursor = "url(paper3.png), pointer"
                 computerScoreBoard.textContent = computerScore;
             } else {
                 result.textContent = 'Player Won';
                 playerScore++;
-                document.body.style.cursor = "url(), pointer"
+                document.body.style.cursor = "url(paper3.png), pointer"
                 playerScoreBoard.textContent = playerScore;
             }
         }
