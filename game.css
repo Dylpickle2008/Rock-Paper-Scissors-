@@ -42,6 +42,7 @@
 .options{
     display: flex;
     width: 50vw;
+    align-content: center; 
     justify-content: space-evenly;
     margin-top: 2rem;
 }
@@ -96,6 +97,9 @@
 }
 
 
+.mouseI{
+    background-color: green; 
+    margin-top: 20px; 
 }
 
 .reload:hover{

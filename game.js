@@ -53,7 +53,7 @@ const game = () => {
             } else {
                 result.textContent = 'Player Won'
                 playerScore++;
-                document.body.style.cursor = "url(https://atlas-content-cdn.pixelsquid.com/stock-images/rock-stone-AvXzl49-600.jpg), pointer"
+                document.body.style.cursor = "url(mouse1.png), pointer"
                 playerScoreBoard.textContent = playerScore;
             }
         }
@@ -61,12 +61,12 @@ const game = () => {
             if (computer == 'rock') {
                 result.textContent = 'Computer Won';
                 computerScore++;
-                document.body.style.cursor = "url(https://t4.ftcdn.net/jpg/02/55/26/63/360_F_255266320_plc5wjJmfpqqKLh0WnJyLmjc6jFE9vfo.jpg), pointer"
+                document.body.style.cursor = "url(scissors7.png), pointer"
                 computerScoreBoard.textContent = computerScore;
             } else {
                 result.textContent = 'Player Won';
                 playerScore++;
-                document.body.style.cursor = "url(https://t4.ftcdn.net/jpg/02/55/26/63/360_F_255266320_plc5wjJmfpqqKLh0WnJyLmjc6jFE9vfo.jpg), pointer"
+                document.body.style.cursor = "url(scissors7.png), pointer"
                 playerScoreBoard.textContent = playerScore;
             }
         }
@@ -74,12 +74,12 @@ const game = () => {
             if (computer == 'scissors') {
                 result.textContent = 'Computer Won';
                 computerScore++;
-                document.body.style.cursor = "url(https://www.citypng.com/public/uploads/preview/white-real-notebook-paper-hd-png-704081695123320tm706b00aj.png), pointer"
+                document.body.style.cursor = "url(), pointer"
                 computerScoreBoard.textContent = computerScore;
             } else {
                 result.textContent = 'Player Won';
                 playerScore++;
-                document.body.style.cursor = "url(https://www.citypng.com/public/uploads/preview/white-real-notebook-paper-hd-png-704081695123320tm706b00aj.png), pointer"
+                document.body.style.cursor = "url(), pointer"
                 playerScoreBoard.textContent = playerScore;
             }
         }
